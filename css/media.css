@@ -1,0 +1,36 @@
+@media (max-width: 1140px) {
+
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-col {
+    margin-bottom: 50px;
+  }
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 760px) {
+
+  .footer-copyright-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .footer-copyright p {
+    font-size: 14px;
+  }
+  .footer-icons p {
+    font-size: 14px;
+  }
+  .footer-contacts p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+  }
+}
